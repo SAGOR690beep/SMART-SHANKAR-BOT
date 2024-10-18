@@ -44,14 +44,14 @@ module.exports.handleEvent = async ({ api, event, Threads }) => {
     const currentDate = new Date();
     const formattedTime = currentDate.toLocaleTimeString('en-US', { 
       hour12: true, 
-      timeZone: 'Asia/Kolkata' 
+      timeZone: 'Asia/Lahore' 
     });
     const formattedDate = currentDate.toLocaleDateString('en-GB', { 
-      timeZone: 'Asia/Kolkata' 
+      timeZone: 'Asia/Lahore' 
     });
     const formattedDay = currentDate.toLocaleDateString('en-US', { 
       weekday: 'long', 
-      timeZone: 'Asia/Kolkata' 
+      timeZone: 'Asia/Lahore' 
     });
 
     const responseMessage = `❁ ━━━[ 𝗨𝗣𝗧𝗜𝗠𝗘 ]━━━ ❁\n\n` +
@@ -60,7 +60,7 @@ module.exports.handleEvent = async ({ api, event, Threads }) => {
                             `✰ 𝗗𝗔𝗧𝗘 ➪ ${formattedDate}\n` +
                             `✰ 𝗗𝗔𝗬 ➪ ${formattedDay}\n` +
                             `━━━━━━━━━━━━━━━\n` +
-                            `𝗠𝗔𝗗𝗘 𝗕𝗬 𝗦𝗠𝗔𝗥𝗧 𝗦𝗛𝗔𝗡𝗸𝗔𝗥`;
+                            `Owner Mian Amir`;
 
     api.sendMessage(responseMessage, event.threadID, event.messageID);
   }
