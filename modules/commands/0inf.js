@@ -22,10 +22,10 @@ const time = process.uptime(),
 		minutes = Math.floor((time % (60 * 60)) / 60),
 		seconds = Math.floor(time % 60);
 const moment = require("moment-timezone");
-var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【HH:mm:ss】");
+var juswa = moment.tz("Asia/Lahore").format("『D/MM/YYYY』 【HH:mm:ss】");
 var link =                                     
-["https://i.imgur.com/eDbdlvd.jpg"];
-var callback = () => api.sendMessage({body:` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ ̿)🇮🇳 𝐀𝐃𝐌𝐈𝐍 𝐀𝐍𝐃 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 🇮🇳 
+["https://i.imgur.com/vymW2Ig.jpeg"];
+var callback = () => api.sendMessage({body:` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ ̿)🇵🇰 𝐀𝐃𝐌𝐈𝐍 𝐀𝐍𝐃 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 🇵🇰 
 (⌐▀͡ ̯ʖ▀)︻̷┻̿═━一-
 
 ☄️Bot Name︎︎︎☄️  ${global.config.BOTNAME}
