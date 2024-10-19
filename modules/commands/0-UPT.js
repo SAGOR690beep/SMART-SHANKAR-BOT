@@ -44,14 +44,14 @@ module.exports.handleEvent = async ({ api, event, Threads }) => {
     const currentDate = new Date();
     const formattedTime = currentDate.toLocaleTimeString('en-US', { 
       hour12: true, 
-      timeZone: 'Asia/Lahore' 
+      timeZone: 'Asia/Karachi' 
     });
     const formattedDate = currentDate.toLocaleDateString('en-GB', { 
-      timeZone: 'Asia/Lahore' 
+      timeZone: 'Asia/Karachi' 
     });
     const formattedDay = currentDate.toLocaleDateString('en-US', { 
       weekday: 'long', 
-      timeZone: 'Asia/Lahore' 
+      timeZone: 'Asia/Karachi' 
     });
 
     const responseMessage = `❁ ━━━[ 𝗨𝗣𝗧𝗜𝗠𝗘 ]━━━ ❁\n\n` +
