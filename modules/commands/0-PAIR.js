@@ -4,7 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "SHANKAR",
   description: "0Pairing",
-  usePrefix: false,
+  usePrefix: true,
   commandCategory: "Love", 
   usages: "pair", 
   cooldowns: 5
