@@ -1,13 +1,17 @@
 module.exports.config = {
-  name: "pair4",
-  version: "1.0.0", 
+  name: "pair3",
+  version: "1.0.0",
   hasPermssion: 0,
-  credits: "SHANKAR-SUMAN",
-  description: "Pairing",
-  commandCategory: "Love", 
-  usages: "pair", 
-  cooldowns: 0
-};
+  credits: "Khoa",
+  description: "It's a compound :>",
+  commandCategory: "fun",
+  usages: "",
+  dependencies: {
+        "axios": "",
+        "fs-extra": ""
+  },
+  cooldowns: 15
+}
 module.exports.run = async function({ api, event,Threads, Users }) {
         const axios = global.nodemodule["axios"];
         const fs = global.nodemodule["fs-extra"];
