@@ -3,10 +3,11 @@ module.exports.config = {
   version: "1.0.0", 
   hasPermssion: 0,
   credits: "ALI BABA",
-  description: "pairing",
+  description: "0Pairing",
+  usePrefix: false,
   commandCategory: "Love", 
   usages: "pair", 
-  cooldowns: 10
+  cooldowns: 5
 };
 module.exports.run = async function({ api, event,Threads, Users }) {
         const axios = global.nodemodule["axios"];
