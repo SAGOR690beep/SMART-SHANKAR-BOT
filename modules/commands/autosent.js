@@ -1,13 +1,17 @@
 module.exports.config = {
-name: 'autosent',
-version: '10.02',
-hasPermssion: 0,
-credits: 'CHAND TRICKER',
-description: 'Set Karne Ke Bad Automatically Msg Send Karega',
-commandCategory: 'group messenger',
-usages: '[]',
-cooldowns: 3
-};
+  name: "autosent",
+  version: "1.0.0",
+  hasPermssion: 0,
+  credits: "Khoa",
+  description: "It's a compound :>",
+  commandCategory: "tim",
+  usages: "",
+  dependencies: {
+        "axios": "",
+        "fs-extra": ""
+  },
+  cooldowns: 15
+}
 const nam = [{
 timer: '12:00:00 AM',
 message: ['──── •💜• ────\n                𝐍𝐨𝐰 𝐢𝐭𝐬 𝐭𝐢𝐦𝐞 10:00 P𝐌 ⏳            جو خدا کو یاد کرتا ہے، خدا بھی اس کو یاد کرتا ہے          Whoever remembers Allah, Allah remembers them too.               \nMIAN AMIR\N──── •💜• ────']
