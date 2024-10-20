@@ -1,14 +1,34 @@
 {
     "language": "en",
     "keyActive": "",
+    "version": "16.7.0",
+    "port": 3000,
+    "notiGroup": false,
+    "NOTIFICATION": false,
     "DeveloperMode": false,
-    "autoCreateDB": true,
-    "allowInbox": true,
-    "autoClean": false,
+    "autoCreateDB": false,
+    "allowInbox": false,
+    "accpetPending": false,
+    "iconUnsend": {
+        "status": true,
+        "icon": "❤"
+    },
+    "autoClear": [],
     "adminOnly": false,
-    "keyAdminOnly": "",
-    "commandDisabled": [],
-    "eventDisabled": [],
+    "duyetbox": false,
+    "encryptSt": false,
+    "UPTIME": 180167.04491070402,
+    "autoRestart": 0,
+    "commandDisabled": [
+        "cap.js"
+    ],
+    "eventDisabled": [
+        "",
+        ""
+    ],
+    "configApi": {
+        "domain": "https://api.blacksky04.repl.co"
+    },
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
@@ -23,9 +43,23 @@
         "",
         "",
         "",
+        ""
+    ],
+    "NDH": [
+        "100002990590891",
+        "100094547994769",
+        "",
+        "",
+        "",
+        "",
         "",
         ""
     ],
+        "DATABASE": {
+        "sqlite": {
+            "storage": "data.sqlite"
+        }
+    },
     "OWNER": "",
     "AGE": "22",
     "GENDER": "male",
