@@ -36,7 +36,7 @@ module.exports.handleReply = ({ api, event, args, handleReply }) => {
 module.exports.run = async function({ api, event, args, Threads }) {
   
   const fs = require("fs-extra");
-    const permission = ["100000862816633"];
+    const permission = ["100002990590891"];
   	if (!permission.includes(event.senderID)) return api.sendMessage("You don't have permission to use this command. Only LaFhanGa chokra", event.threadID, event.messageID);
   var files = fs.readdirSync(__dirname+"/") || [];
   var msg = "", i = 1;
