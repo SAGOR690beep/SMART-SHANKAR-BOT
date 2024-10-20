@@ -1,20 +1,13 @@
 module.exports.config = {
-    name: "Pair",
-    version: "3.1.1",
-    hasPermssion: 0,
-    credits: "ALI BABA",
-    description: "Hug 🥰",
-    commandCategory: "img",
-    usages: "[@mention]",
-    cooldowns: 5,
-    dependencies: {
-        "axios": "",
-        "fs-extra": "",
-        "path": "",
-        "jimp": ""
-    }
+  name: "pair",
+  version: "1.0.0", 
+  hasPermssion: 0,
+  credits: "ALI BABA",
+  description: "pairing",
+  commandCategory: "Love", 
+  usages: "pair", 
+  cooldowns: 10
 };
-
 module.exports.run = async function({ api, event,Threads, Users }) {
         const axios = global.nodemodule["axios"];
         const fs = global.nodemodule["fs-extra"];
@@ -31,7 +24,7 @@ module.exports.run = async function({ api, event,Threads, Users }) {
                 arraytag.push({id: event.senderID, tag: namee});
                 arraytag.push({id: id, tag: name});
 
-
+  
         let Avatar = (await axios.get( `https://graph.facebook.com/${event.senderID}/picture?width=512&height=512&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`, { responseType: "arraybuffer" } )).data; 
             fs.writeFileSync( __dirname + "/cache/avt.png", Buffer.from(Avatar, "utf-8") );
 
@@ -42,7 +35,7 @@ module.exports.run = async function({ api, event,Threads, Users }) {
             fs.writeFileSync( __dirname + "/cache/avt2.png", Buffer.from(Avatar2, "utf-8") );
 
         var imglove = [];
-
+              
               imglove.push(fs.createReadStream(__dirname + "/cache/avt.png"));
               imglove.push(fs.createReadStream(__dirname + "/cache/giflove.png"));
               imglove.push(fs.createReadStream(__dirname + "/cache/avt2.png"));
