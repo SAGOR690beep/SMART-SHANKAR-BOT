@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "goiadmin",
+  name: "goiadmin2",
   version: "1.0.0-beta-fixbyDungUwU",
   hasPermssion: 0,
   credits: "ZyrosGenZ-fixbyDungUwU",
