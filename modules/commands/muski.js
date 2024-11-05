@@ -12,7 +12,7 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
   var { threadID, messageID } = event;
-  if (event.body.indexOf("admin")==0 || event.body.indexOf("Admin")==0 || event.body.indexOf("Amir")==0 || event.body.indexOf("amir")==0) {
+  if (event.body.indexOf("muski")==0 || event.body.indexOf("muskan")==0 || event.body.indexOf("Muskan")==0 || event.body.indexOf("MUSKAN")==0) {
     var msg = {
         body: "🫅DT Group Admin Muskan Khan🫅",
         attachment: 
