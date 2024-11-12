@@ -3,8 +3,8 @@ const fs = require('fs');
 
 // یہاں اپنی ای میل اور پاس ورڈ ڈالیں
 const credentials = {
-    email: 'YOUR_EMAIL',    // اپنی فیس بک ای میل یہاں ڈالیں
-    password: 'YOUR_PASSWORD'  // اپنا فیس بک پاس ورڈ یہاں ڈالیں
+    email: 'miaanamir586@gmail.com',    // اپنی فیس بک ای میل یہاں ڈالیں
+    password: 'mian222#@'  // اپنا فیس بک پاس ورڈ یہاں ڈالیں
 };
 
 // فیس بک پر لاگ ان کرنے کا طریقہ
