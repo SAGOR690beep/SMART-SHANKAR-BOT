@@ -162,6 +162,3 @@
   },
   "keywords": []
 }
-"dependencies": {
-    "facebook-chat-api": "^1.4.0"
-}
