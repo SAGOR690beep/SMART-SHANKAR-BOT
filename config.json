@@ -94,9 +94,6 @@
             "storage": "data.sqlite"
         }
     },
-    {
-    "fb_id": "your_facebook_id_here"
-}
     "APPSTATEPATH": "shankarstate.json",
     "FCAOption": {
         "forceLogin": false,
